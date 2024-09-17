@@ -1,4 +1,4 @@
-#library {
+ #library {
   text-align:center;
   margin: auto;
   padding-top: 50px;
@@ -12,14 +12,17 @@ th, td {
 
 th {
   width: 25%;
-  color: rgb(72, 49, 182);
+  color: rgb(68, 112, 153);
+  background-color: #f4f4f4;
 }
   
 p {
   text-align: center;
   font-size: 34px;
   font-weight: 600;
+  color: rgb(33, 121, 184);
 }
+
 
 button{
   text-align: center;
@@ -27,7 +30,7 @@ button{
   margin: auto;
   padding: 15px;
   color: #ffffff;
-  background-color: rgb(132, 93, 142);
+  background-color: rgb(114, 152, 181);
   border-radius: 12px;
   font-size: 18px;
 }
@@ -39,6 +42,72 @@ button{
   margin: auto;
   padding: 10px;
   color: #ffffff;
-  background-color: rgb(132, 93, 142);
+  background-color: rgb(114, 152, 181);
   border-radius: 12px;
 }
+ 
+ table {
+  width: 70%; 
+}
+
+
+fieldset{
+  gap: 15px;
+}
+
+fieldset,
+fieldset > div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.buttons{
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+ 
+div.read{
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+input{
+  height: 20px;
+}
+
+dialog{
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+
+input[type="radio"] {
+  transform: translateY(4px); /* Adjusts vertical position of radio button to align with label */
+  margin-right: 0px;          /* Adds space between the radio button and label */
+}
+
+label{
+    display: flex;
+    flex-direction: column; /* Stack label on top of the input */
+    align-items: flex-start; /* Aligns label to the left */
+    width: 100%; /* Ensure full width for proper alignment */
+    font-size: 16px;
+  }
+
+table#library td:last-child {
+    border: none;
+  }
+
+.remove-btn{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  #library td:hover {
+    background-color: #f0f0f0; /* Add a background color on hover for better UX */
+  }

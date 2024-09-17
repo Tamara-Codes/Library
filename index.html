@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library</title>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <p>Super Duper Library</p>
+
+  <dialog id="book">
+    <div class="form">
+      <fieldset>
+        <legend>Let's add a book to your library!</legend>
+        
+        <div class="title">
+          <label for="title">TITLE</label>
+          <input type="text" id="title" name="title">
+        </div>
+        
+        <div class="author">
+          <label for="author">AUTHOR</label>
+          <input type="text" id="author" name="author">
+        </div>
+        
+        <div class="num-pages">
+          <label for="num-pages">NUMBER OF PAGES</label>
+          <input type="number" id="num-pages" name="num-pages">
+        </div>
+        
+        <div class="read">
+          <input type="radio" id="read" name="read" value="read">
+          <label for="read">READ</label>
+          <input type="radio" id="not-read" name="read" value="not-read">
+          <label for="not-read">NOT READ</label>
+        </div>
+        
+        <div>
+          <button id="cancelBtn" value="cancel">Cancel</button>
+          <button id="confirmBtn" value="confirm">Confirm</button>
+        </div>
+      </fieldset>
+    </div>
+  </dialog>
+
+  <button id="new-book">NEW BOOK</button>
+
+  <div id="library-container"></div>
+
+
+
+</body>
+</html>

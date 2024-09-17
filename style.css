@@ -1,0 +1,44 @@
+#library {
+  text-align:center;
+  margin: auto;
+  padding-top: 50px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 18px;
+}
+
+th {
+  width: 25%;
+  color: rgb(72, 49, 182);
+}
+  
+p {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+button{
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 15px;
+  color: #ffffff;
+  background-color: rgb(132, 93, 142);
+  border-radius: 12px;
+  font-size: 18px;
+}
+
+#cancelBtn,
+#confirmBtn{
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  color: #ffffff;
+  background-color: rgb(132, 93, 142);
+  border-radius: 12px;
+}
